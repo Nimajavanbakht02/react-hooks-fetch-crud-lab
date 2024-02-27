@@ -5,9 +5,8 @@ import QuestionList from "./QuestionList";
 
 function App() {
   const [page, setPage] = useState("List");
-  const [question, setQuestion] = useState({}); // State to store questions
+  const [question, setQuestion] = useState({}); 
 
-  // Function to add a new question to the state
   const updateQuestionList = (newQuestion) => {
     setQuestion(newQuestion);
   };
